@@ -1,0 +1,8 @@
+{
+  "name": "git-probleminha",
+  "app_id": "3770ec02",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
