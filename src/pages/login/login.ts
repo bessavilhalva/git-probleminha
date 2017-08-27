@@ -33,6 +33,7 @@ export class LoginPage {
         );
     },
     err => this.msg = "Não existe este recurso"
+    this.navCtrl.setRoot(HomePage);
   );
   }
 }

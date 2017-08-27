@@ -10,11 +10,14 @@ import { HomePage } from '../pages/home/home';
 import { GoogleMaps } from '@ionic-native/google-maps';
 import { TouchID } from '@ionic-native/touch-id';
 import { LoginPage } from '../pages/login/login';
+import { MapaPage } from '../pages/mapa/mapa';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    MapaPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { LoginPage } from '../pages/login/login';
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    MapaPage
   ],
   providers: [
     TouchID,
